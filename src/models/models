@@ -1,0 +1,20 @@
+
+import os
+
+# Krijojmë strukturën e direktorive
+base_dir = "/mnt/agents/output/duffing_poincare_project"
+dirs = [
+    f"{base_dir}/src/models",
+    f"{base_dir}/src/visualization",
+    f"{base_dir}/src/analysis",
+    f"{base_dir}/scripts",
+    f"{base_dir}/results/figures"
+]
+
+for d in dirs:
+    os.makedirs(d, exist_ok=True)
+
+print("Struktura e projektit u krijua me sukses!")
+print("\nDirektoritë:")
+for d in dirs:
+    print(f"  {d}")
