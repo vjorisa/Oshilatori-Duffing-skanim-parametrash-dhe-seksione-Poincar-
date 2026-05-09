@@ -115,9 +115,3 @@ $$E_{eff} = \\frac{1}{2}v^2 + \\frac{1}{2}\\alpha x^2 + \\frac{1}{4}\\beta x^4$$
 ## Autori
 
 Vjorisa Cani - Fizikë dhe Shkenca Kompjuterike
-'''
-
-with open("/mnt/agents/output/duffing_poincare_project/README.md", "w") as f:
-    f.write(readme)
-
-print("✓ README.md u krijua me sukses!")
