@@ -3,7 +3,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import matplotlib.pyplot as plt
-from src.analysis.poincare import solve_duffing, get_poincare_section
+from src.analysis.pointcare import solve_duffing, get_poincare_section
 
 # Parametrat që shpesh shkaktojnë kaos
 params = {'delta': 0.3, 'alpha': -1.0, 'beta': 1.0, 'gamma': 0.5, 'omega': 1.2}
