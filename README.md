@@ -112,6 +112,16 @@ $$E_{eff} = \\frac{1}{2}v^2 + \\frac{1}{2}\\alpha x^2 + \\frac{1}{4}\\beta x^4$$
 - Strogatz, S. H. (2018). *Nonlinear Dynamics and Chaos*
 - Ott, E. (2002). *Chaos in Dynamical Systems*
 
+# Moduli i Oshilatorit Duffing dhe Sistemeve Kaotike – Vjorisa
+
+Ky modul trajton sjelljen komplekse jolineare dhe kaotike të Oshilatorit Duffing. Si **Eksperte e Vizualizimit**, përveç analizës matematiko-fizike të kaosit, jam fokusuar në gjenerimin e grafikëve të avancuar si Portretet Fazore dhe Seksionet Poincaré.
+
+### Bashkëpunimi dhe Ndarja e Kontributeve
+
+* **Ndihma për Azemin & Kejsin:** Kam marrë rolin e "Drejtoreshës së Grafikëve" duke u mësuar të dy anëtarëve përdorimin profesional të librarisë Matplotlib. Kam ndihmuar në rregullimin e legjendave, titujve dhe në ndërtimin e skripteve që i ruajnë fotot automatikisht në direktorinë `/results/figures/`.
+* **Ndihma për Analizën:** Kam ndihmuar grupin në interpretimin fizik të hapësirës fazore. Për shembull, kam asistuar Kejsin në analizimin e Portretit të tij Fazor, duke shpjeguar se si spiralizimi i trajektores tregon grafikisht konvergjencën drejt një pike të ekuilibrit fiks.
+* **Asistenca e pranuar:** Azemi më ka lehtësuar punën duke më dhënë "skeletin" e kodit të oshilatorit harmonik, mbi të cilin unë thjesht shtova termin jolinear ($x^3$). Kejsi më ka ndihmuar me ekspertizën e tij mbi fërkimin për të rregulluar vlerën e saktë të parametrit $\delta$ (damping), në mënyrë që Seksioni im Poincaré të mos ishte kaotik në pafundësi por të shfaqte strukturat fraktale.
+
 ## Autori
 
 Vjorisa Cani - Fizikë dhe Shkenca Kompjuterike
