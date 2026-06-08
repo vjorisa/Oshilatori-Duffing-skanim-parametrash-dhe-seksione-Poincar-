@@ -50,7 +50,7 @@ pip install numpy scipy matplotlib
 
 ### Simulim i vetëm:
 ```bash
-cd duffing_poincare_project
+duffing_poincare_project
 python scripts/run_single.py
 ```
 
